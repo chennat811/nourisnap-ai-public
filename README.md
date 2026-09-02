@@ -2,6 +2,8 @@
 
 An AI-powered mobile application that helps users analyze their meals by capturing photos and providing nutritional information.
 
+> **Note:** This is the public-facing mobile app repository. The AI backend (Supabase Edge Function that calls OpenAI) is kept in a separate private repository and is not included here.
+
 ## Features
 
 - Meal photo capture using device camera
@@ -15,9 +17,13 @@ An AI-powered mobile application that helps users analyze their meals by capturi
 
 - React Native with Expo (Frontend)
 - TypeScript
-- Supabase Edge Functions (Deno, TypeScript, OpenAI API) (Backend)
+- Supabase (auth, database, storage)
 - React Navigation for routing
 - Open Food Facts API for nutritional data
+
+## Repository Structure
+
+This public repo contains the mobile application source (screens, components, hooks, utilities). The AI-powered Supabase Edge Function backend is maintained separately as private source code.
 
 ## Getting Started
 
