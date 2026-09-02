@@ -1,0 +1,26 @@
+{
+  "imports": {
+    "@supabase/functions-js": "jsr:@supabase/functions-js@^1.15.1",
+    "openai": "https://deno.land/x/openai@v5.5.0/mod.ts",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2"
+  },
+  "compilerOptions": {
+    "lib": ["deno.ns", "dom"],
+    "strict": true
+  },
+  "lint": {
+    "rules": { "tags": ["recommended"] },
+    "include": ["./**/*.ts"],
+    "exclude": ["./node_modules/"]
+  },
+  "fmt": {
+    "options": {
+      "useTabs": false,
+      "lineWidth": 80,
+      "indentWidth": 2,
+      "singleQuote": false
+    },
+    "include": ["./**/*.ts"],
+    "exclude": ["./node_modules/"]
+  }
+}

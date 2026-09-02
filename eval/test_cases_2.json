@@ -1,0 +1,162 @@
+[
+  {
+    "id": "avocado_half",
+    "url": "https://www.pexels.com/photo/35206912/",
+    "image": "images/avocado_half.jpg",
+    "query": "酪梨 半顆",
+    "expected": {
+      "calories": [140, 185],
+      "fat_g": [13, 18],
+      "carbs_g": [7, 11],
+      "protein_g": [1.5, 2.5],
+      "fiber_g": [4.5, 6.5]
+    }
+  },
+  {
+    "id": "banana_medium",
+    "url": "https://commons.wikimedia.org/wiki/File:Banana_on_whitebackground.jpg",
+    "image": "images/banana_medium.jpg",
+    "query": "香蕉 中等",
+    "expected": {
+      "calories": [95, 120],
+      "fat_g": [0.2, 0.4],
+      "carbs_g": [23, 30],
+      "protein_g": [1.0, 1.6],
+      "fiber_g": [2.2, 3.2]
+    }
+  },
+  {
+    "id": "beef_noodle_soup",
+    "url": "https://www.pexels.com/photo/delicious-taiwanese-beef-noodle-soup-bowl-31623304/",
+    "image": "images/beef_noodle_soup.jpg",
+    "query": "一碗牛肉麵，裡面有六塊牛腱",
+    "expected": {
+      "calories": [680, 1020],
+      "fat_g": [24, 36],
+      "carbs_g": [76, 114],
+      "protein_g": [32, 48],
+      "fiber_g": [3.5, 6.5]
+    }
+  },
+  {
+    "id": "bubble_milk_tea_large_boba__sugar_100",
+    "url": "https://commons.wikimedia.org/wiki/File:50_Lan_Bubble_Tea_in_Taichung_20141201.jpg",
+    "image": "images/bubble_milk_tea.jpg",
+    "query": "大杯波霸奶茶 正常糖",
+    "expected": {
+      "calories": [480, 820],
+      "fat_g": [10, 20],
+      "carbs_g": [70, 110],
+      "protein_g": [3, 7],
+      "fiber_g": [0, 1.5]
+    }
+  },
+  {
+    "id": "bubble_milk_tea_large_boba__sugar_0",
+    "url": "https://commons.wikimedia.org/wiki/File:50_Lan_Bubble_Tea_in_Taichung_20141201.jpg",
+    "base_id": "bubble_milk_tea_large_boba",
+    "sugar_level": 0,
+    "image": "images/bubble_milk_tea.jpg",
+    "query": "大杯波霸奶茶 無糖",
+    "expected": {
+      "calories": [360, 600],
+      "fat_g": [10, 20],
+      "carbs_g": [45, 75],
+      "protein_g": [3, 7],
+      "fiber_g": [0, 1.5]
+    }
+  },
+  {
+    "id": "lu_rou_fan",
+    "url": "https://commons.wikimedia.org/wiki/File:L%C3%B3%CD%98-bah-pn%CC%84g_of_the_Wang%27s_Broth_at_Huaxi_Street_in_Wanhua,_Taipei_2023-04-28.jpg",
+    "base_id": "lu_rou_fan",
+    "image": "images/lu_rou_fan.jpg",
+    "query": "魯肉飯",
+    "expected": {
+      "calories": [400, 600],
+      "fat_g": [22, 34],
+      "carbs_g": [52, 78],
+      "protein_g": [10, 14],
+      "fiber_g": [0.8, 2.2]
+    }
+  },
+  {
+    "id": "gua_bao",
+    "url": "https://commons.wikimedia.org/wiki/File:Steamed_Sandwich,taken_by_LeoAlmighty.jpg",
+    "base_id": "gua_bao",
+    "image": "images/gua_bao.jpg",
+    "query": "bun, pork, peanuts, cilantro",
+    "expected": {
+      "calories": [415, 625],
+      "fat_g": [26, 38],
+      "carbs_g": [36, 54],
+      "protein_g": [14, 22],
+      "fiber_g": [2.0, 4.5]
+    }
+  },
+  {
+    "id": "soup_dumplings",
+    "url": "https://commons.wikimedia.org/wiki/File:Soup_dumplings_in_Handan_2.jpg",
+    "image": "images/soup_dumplings.jpg",
+    "query": "8 顆小籠包",
+    "expected": {
+      "calories": [440, 660],
+      "fat_g": [25, 37],
+      "carbs_g": [30, 46],
+      "protein_g": [26, 38],
+      "fiber_g": [2.6, 3.8]
+    }
+  },
+  {
+    "id": "taiwanese_fried_chicken",
+    "url": "https://commons.wikimedia.org/wiki/File:TWBC_Taiwanese_fried_chicken_20070303.jpg",
+    "image": "images/taiwanese_fried_chicken.jpg",
+    "query": "一份鹹酥雞",
+    "expected": {
+      "calories": [390, 540],
+      "fat_g": [22, 32],
+      "carbs_g": [22, 33],
+      "protein_g": [23, 30],
+      "fiber_g": [0.5, 1.5]
+    }
+  },
+  {
+    "id": "oyster_omlette",
+    "url": "https://commons.wikimedia.org/wiki/File:Oyster_omelette_in_Shilin_Night_Market.jpg",
+    "image": "images/oyster_omlette.jpg",
+    "query": "蚵仔煎",
+    "expected": {
+      "calories": [465, 705],
+      "fat_g": [21, 35],
+      "carbs_g": [49, 78],
+      "protein_g": [19, 31],
+      "fiber_g": [2.0, 4.0]
+    }
+  },
+  {
+    "id": "lu_wei",
+    "url": "https://commons.wikimedia.org/wiki/File:Food_%E6%BB%B7%E5%91%B3,_%E5%B7%9D%E6%9D%B1%E7%89%9B%E8%82%89%E9%BA%B5,_%E5%8F%B0%E5%8C%97_(17587050539).jpg",
+    "image": "images/lu_wei.jpg",
+    "query": "一盤滷海苔，豆乾，豆腐，豬頭皮，淋上醬油膏",
+    "expected": {
+      "calories": [305, 415],
+      "fat_g": [14, 19],
+      "carbs_g": [21, 31],
+      "protein_g": [19, 26],
+      "fiber_g": [2, 5]
+    }
+  },
+  {
+    "id": "dou_hua",
+    "url": "David Chen",
+    "image": "images/dou_hua.jpg",
+    "query": "一小碗豆花加糖水，仙草，花生，綠豆, 芋圓",
+    "expected": {
+      "calories": [365, 455],
+      "fat_g": [8.0, 10.5],
+      "carbs_g": [62, 78],
+      "protein_g": [9.5, 12.5],
+      "fiber_g": [4.0, 5.5]
+    }
+  }
+]
