@@ -1,29 +1,41 @@
 # Forkcast
 
-An AI-powered mobile application that helps users analyze their meals by capturing photos and providing nutritional information.
+<p align="center">
+  <img src="assets/mascot.png" alt="Forkcast Mascot" width="160" />
+</p>
 
-> **Note:** This is the public-facing mobile app repository. The AI backend (Supabase Edge Function that calls OpenAI) is kept in a separate private repository and is not included here.
+<p align="center">
+  <strong>Your AI-powered meal companion. Snap a photo, know your nutrition. 🍽️✨</strong><br/>
+  <strong>你的 AI 美食夥伴。隨手一拍，掌握營養。🍽️✨</strong>
+</p>
 
 ## Demo
 
-Watch the app in action: [YouTube Demo](https://youtu.be/6O7CGHmkIAc)
+[![YouTube Demo](https://img.youtube.com/vi/6O7CGHmkIAc/0.jpg)](https://youtu.be/6O7CGHmkIAc)
+
+> **Click the thumbnail above to watch the demo on YouTube.**
 
 ## Features
 
-- Meal photo capture using device camera
-- Image selection from device gallery
-- AI-powered nutritional analysis
-- Meal history tracking
-- User-friendly interface
-- Cross-platform support (iOS, Android, Web)
+| English | 中文 |
+|---|---|
+| 📸 **Meal photo capture** using device camera | 📸 使用裝置相機**拍攝餐點照片** |
+| 🖼️ **Image selection** from device gallery | 🖼️ 從相簿**選取餐點照片** |
+| 🤖 **AI-powered nutritional analysis** | 🤖 **AI 智能營養分析** |
+| 📊 **Meal history tracking** | 📊 **用餐紀錄追蹤** |
+| 🏷️ **Health tags & insights** | 🏷️ **健康標籤與建議** |
+| 🌐 **Cross-platform support** (iOS, Android, Web) | 🌐 **跨平台支援**（iOS、Android、Web） |
+| 🎨 **User-friendly interface** | 🎨 **友善直覺的使用者介面** |
 
 ## Tech Stack
 
-- React Native with Expo (Frontend)
-- TypeScript
-- Supabase (auth, database, storage)
-- React Navigation for routing
-- Open Food Facts API for nutritional data
+| English | 中文 |
+|---|---|
+| ⚛️ React Native with Expo (Frontend) | ⚛️ React Native + Expo（前端） |
+| 🔷 TypeScript | 🔷 TypeScript |
+| 🟢 Supabase (Auth, Database, Storage) | 🟢 Supabase（認證、資料庫、儲存） |
+| 🧭 React Navigation (Routing) | 🧭 React Navigation（路由） |
+| 🍎 Open Food Facts API (Nutritional data) | 🍎 Open Food Facts API（營養資料） |
 
 ## Repository Structure
 
