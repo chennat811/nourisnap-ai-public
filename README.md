@@ -1,4 +1,4 @@
-# Forkcast
+# NouriSnap.ai
 
 An AI-powered mobile application that helps users analyze their meals by capturing photos and providing nutritional information.
 
