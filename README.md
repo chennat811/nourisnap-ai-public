@@ -4,6 +4,10 @@ An AI-powered mobile application that helps users analyze their meals by capturi
 
 > **Note:** This is the public-facing mobile app repository. The AI backend (Supabase Edge Function that calls OpenAI) is kept in a separate private repository and is not included here.
 
+## Demo
+
+Watch the app in action: [YouTube Demo](https://youtu.be/6O7CGHmkIAc)
+
 ## Features
 
 - Meal photo capture using device camera
