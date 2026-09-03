@@ -1,4 +1,4 @@
-# Forkcast
+# NouriSnap.ai
 
 <p align="center">
   <img src="assets/mascot.png" alt="Forkcast Mascot" width="160" />
