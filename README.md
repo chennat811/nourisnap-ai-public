@@ -192,7 +192,7 @@ supabase link --project-ref project-ref
 
 1. **Deploy the Function:**
    ```sh
-   supabase link --project-ref cidkmfusikeddkqxierk
+   supabase link --project-ref [project-ref]
    supabase functions deploy openai
    ```
    - This uploads your latest function code to Supabase Cloud.
